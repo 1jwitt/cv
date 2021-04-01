@@ -1,0 +1,120 @@
+html {
+        
+
+}
+body {
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        background-image:
+        radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+        radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+        font-family: sans-serif;
+}
+
+img {
+    max-height: 200px;
+    width: auto;
+    opacity: 90%;
+    border-radius: 50%;
+    
+}
+
+a {
+    max-height: auto;
+    width: 400px;
+    opacity: 75%;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+a:hover {
+    color: tomato;
+}
+
+.section {
+    /* display: flex;
+    justify-content: left;
+    align-items: center; */
+    background: #3a2466;
+    background-image:
+        radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+        radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+    background: #3a2466;
+    background-image:
+        radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+        radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+    border-radius: 10px;
+}
+
+
+
+table {
+    /* display: flex;
+    justify-content: left; */
+    background: #3a2466;
+    background-image:
+        radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+        radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+    border-radius: 10px;
+}
+
+td {
+    padding: 15px;
+    margin: 20px;
+}
+
+.sectionData {
+    display: block;
+}
+
+.panel{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px 25px 25px;
+    width: 80%;
+    /* max-width: 960px; */
+    display: inline-block;
+    /* justify-content: center; */
+    margin: 10px 30px 30px 30px;
+    
+    
+    
+}
+
+hr {
+    margin: 5px;
+}
+.contactPage {
+    background: white;
+}
+
+/* Contact page styles */
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
